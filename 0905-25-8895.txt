@@ -1,0 +1,10 @@
+ARCHIVO DE RESPUESTAS
+
+i. ¿Qué aprendiste sobre el flujo de trabajo con Git y GitHub?
+Aprendí cómo funciona el flujo de trabajo básico de Git y GitHub: clonar un repositorio, crear y cambiar entre ramas, realizar commits para guardar cambios, utilizar push para subirlos al repositorio remoto y fusionar ramas con main. También comprendí la importancia de mantener un historial ordenado de cambios.
+
+ii. ¿Cómo fue la experiencia de trabajar en pareja? ¿Encontraste algún conflicto? ¿Cómo lo resolviste?
+En esta ocasión trabajé de forma individual, por lo que no tuve conflictos con otra persona. Sin embargo, cometí un error al escribir el comando git merge -b rama-emilyn, ya que confundí el uso del parámetro -b. Investigando comprendí que -b solo se utiliza con git checkout para crear una nueva rama. Para solucionarlo, regresé a la rama main, ejecuté correctamente el comando git merge rama-emilyn y finalmente utilicé git push origin main para subir los cambios al repositorio remoto.
+
+iii. ¿Qué ventajas crees que tiene usar Git en proyectos de programación?
+Considero que Git permite llevar un control de versiones detallado, facilita el trabajo colaborativo y ayuda a organizar el desarrollo mediante ramas. Además, permite resolver conflictos de manera estructurada y segura, evitando la pérdida de información.
